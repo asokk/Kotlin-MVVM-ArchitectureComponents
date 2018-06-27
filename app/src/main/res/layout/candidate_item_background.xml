@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:showIn="@layout/candidate_item">
+
+    <ImageView
+        android:id="@+id/delete_icon_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/ic_delete_white_24dp" />
+
+    <TextView
+        android:id="@+id/delete_icon_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toLeftOf="@id/delete_icon_right"
+        android:layout_toStartOf="@id/delete_icon_right"
+        android:text="@string/delete_icon_text"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+</RelativeLayout>

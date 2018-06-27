@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Cookpad-Assignment</string>
+    <string name="action_delete_all">Delete all</string>
+    <string name="empty_view_no_cadidates_registered_yet">No candidates registered yet.</string>
+    <string name="empty_view_image_content_description">No candidate image.</string>
+    <string name="email_field_hint">E-mail</string>
+    <string name="name_field_hint">Name</string>
+    <string name="activity_new_candidate_title">New Candidate</string>
+    <string name="save_button_text">SAVE</string>
+    <string name="assessment_grade_spinner_label">Assessment grade</string>
+    <string name="phone_number_field_hint">Phone Number</string>
+    <string name="empty_fields_message">Please fill all fields.</string>
+    <string name="activity_new_candidate_in_edit_mode">Edit Candidate</string>
+    <string name="delete_icon_text">Delete</string>
+    <string-array name="assessment_grade_spinner_entries">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="assessment_grade_spinner_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
